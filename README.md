@@ -24,7 +24,7 @@ This is a **Netflix Clone** built using **Laravel** as the backend framework and
 ## Installation & Setup
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/yourusername/netflix-clone.git
+git clone https://github.com/sanjay-git-source/netflix-clone.git
 cd netflix-clone
 ```
 
