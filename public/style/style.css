@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #141414;
+    color: white;
+}
+.navbar {
+    background-color: #141414;
+}
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.hero {
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/8ef12e30-8a4e-4c97-bc0d-bf40d3a6bb09/ffb55ab6-3182-4f03-82f7-8ad79eb1652a/IN-en-20230626-popsignuptwoweeks-perspective_alpha_website_medium.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.hero .btn {
+    font-size: 1.2rem;
+    padding: 0.75rem 2rem;
+    background-color: #e50914;
+    border: none;
+}
+.hero .btn a{
+    color: white;
+    text-decoration: none;
+}
+.footer {
+    background-color: #181818;
+    padding: 2rem;
+    color: #b3b3b3;
+    text-align: center;
+}
+.footer a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+
+.movies {
+    padding: 2rem;
+}
+.movie {
+    background-color: #181818;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.movie:hover {
+    transform: scale(1.05);
+}
+.movie a{
+    text-decoration: none;
+    color: white;
+}
+.movie img {
+    width: 100%;
+    height: 300px;
+}
+.movie-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+.unique-movie-details {
+    padding: 2rem;
+}
+.unique-movie-poster img {
+    width: 100%;
+    border-radius: 10px;
+    height: 500px;
+}
+.unique-movie-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.unique-movie-info {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.unique-btn-watch {
+    font-size: 1.2rem;
+    padding: 0.75rem 2rem;
+    background-color: #e50914;
+    border: none;
+    margin-top: 1rem;
+}
+
+.whole-div-custom-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #141414;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.custom-404-container {
+    max-width: 600px;    
+}
+.custom-404-title {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #e50914;
+}
+.custom-404-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.custom-404-btn {
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 3vw;
+}
+.custom-404-btn:hover {
+    background-color: #b00710;
+}
